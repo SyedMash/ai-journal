@@ -11,10 +11,7 @@ const Bounded = forwardRef<HTMLDivElement, BoundedProps>(
     return (
       <section
         ref={ref}
-        className={clsx(
-          "max-w-[1900px] mx-auto px-4 2xl:px-0 py-24",
-          className
-        )}
+        className={clsx("max-w-[1900px] mx-auto px-4 py-36", className)}
       >
         {children}
       </section>
